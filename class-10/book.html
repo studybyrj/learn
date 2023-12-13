@@ -30,7 +30,25 @@
             <li class="button"><a href="book/hindi.html"><button>Hindi</button></a></li>
             <li class="button"><a href="book/science.html"><button>Science</button></a></li>
             <li class="button"><a href="book/social-science.html"><button>Social Science</button></a></li>
+                <li class="button">   <div class="button-container">
+                <a href="book/it.html"><button class="button">IT</button>
+                <div class="overlay"><img src="new.png" height="30"></div>
+              </div></a>
+            </li>
             </ul></centre>
     </div>
 </body>
 </html>
+<style>
+
+    .overlay {
+      position: absolute;
+      top: 657px;
+      left: 76px;
+      width: 100px;
+      display: inline-flex;
+      justify-content: right;
+      align-items: right;
+      z-index: 1; /* Ensure the overlay is below the button */
+    }
+  </style>
