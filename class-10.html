@@ -23,17 +23,188 @@
     <label for="nav-trigger"></label>
 <body>
     <div class="site-wrap">
-        <centre><h2>Select</h2>
+        <centre><h2>For Class 10<sup>th</sup> Students</h2>
+            <h3>"Believe in yourself, tackle each question with confidence. All the best for your Class 10 board exams!" 🌟</h3>
             <ul class="buttons">
-            <li class="button"><a href="class-10/book.html"><button>Books</button></a></li>
-            <li class="button"><a href="class-10/solution.html"><button>Ncert Solution</button></a></li>
-            <li class="button"><a href="class-10/exampler.html"><button>Ncert Exampler</button></a></li>
-            <li class="button"><a href="class-10/sample-paper.html"><button>Sample Paper</button></a></li>
-            <li class="button"><a href="https://www.cbse.gov.in/cbsenew/question-paper.html" taget="_blank"><button>Previous Year Paper</button></a></li>
-            <li class="button"><a href="class-10/syllabus.html"><button>Syllabus (23-24)</button></a></li>
-            <li class="button"><a href="class-10/extra.html"><button>Deleted Part</button></a></li>
-            <li class="button"><a href="class-10/notes.html"><button>Notes</button></a></li>
+            <table>
+                <tr>
+                  <th><h1>Select Below</h1></th>
+                </tr>
+                <tr><td><li class="button"><a href="https://drive.google.com/file/d/1EwYudEmf7uz2GoEpawwrEagZzCMu3Tux/view?usp=sharing"><button>Date Sheet</button></a></li></td></tr>
+                <tr>
+                  <td><li class="button"><a href="class-10/book.html"><button>Books</button></a></li></td>
+                  <td><li class="button"><a href="class-10/syllabus.html"><button>Syllabus (23-24)</button></a></li></td>
+                </tr>
+                <tr>
+                    <td><li class="button"><a href="class-10/notes.html"><button>Notes</button></a></li></td>
+                    <td><li class="button"><a href="class-10/extra.html"><button>Deleted Part</button></a></li></td>
+                  </tr>
+                  <tr>
+                    <td><li class="button"><a href="class-10/solution.html"><button>Ncert Solution</button></a></li></td>
+                    <td><li class="button"><a href="https://www.cbse.gov.in/cbsenew/question-paper.html" taget="_blank"><button>Previous Year Paper</button></a></li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><li class="button"><a href="class-10/exampler.html"><button>Ncert Exampler</button></a></li></td>
+                    <td><li class="button"><a href="class-10/sample-paper.html"><button>Sample Paper</button></a></li></td>
+                  </tr>
+                </table>
             </ul></centre>
     </div>
 </body>
 </html>
+<style>/* Navigation Menu - Background */
+    .navigation {
+        /* critical sizing and position styles */
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+        
+        /* non-critical appearance styles */
+        list-style: none;
+        background: #0479ff48;
+      }
+      
+      /* Navigation Menu - List items */
+      .nav-item {
+        /* non-critical appearance styles */
+        width: 200px;
+        border-top: 1px solid #0479ff5e;
+        border-bottom: 0px solid #0479ff67;
+      }
+      
+      .nav-item a {
+        /* non-critical appearance styles */
+        display: block;
+        padding: 1em;
+        background: linear-gradient(135deg, rgba(0, 38, 255, 0) 0%,rgba(4, 0, 255, 0.65) 100%);
+        color: black;
+        font-size: 1.2em;
+        text-decoration: none;
+        transition: color 0.2s, background 0.5s;
+        font-style: bold;
+      }
+      
+      .nav-item a:hover {
+        color: #0400ff;
+        background: linear-gradient(135deg, #0408ff) 0%,rgba(255, 255, 255, 0) 100%);
+      }
+      
+      /* Site Wrapper - Everything that isn't navigation */
+      .site-wrap {
+        /* Critical position and size styles */
+        min-height: 100%;
+        min-width: 100%;
+        background-color: white; /* Needs a background or else the nav will show through */
+        position: relative;
+        top: 0;
+        bottom: 100%;
+        left: 0;
+        z-index: 1;
+        
+        /* non-critical apperance styles */
+        padding: 4em;
+        background-image: linear-gradient(135deg, rgb(254,255,255) 0%,rgb(221,241,249) 35%,rgb(160,216,239) 100%);
+        background-size: 200%;
+      }
+      
+      /* Nav Trigger */
+      .nav-trigger {
+        /* critical styles - hide the checkbox input */
+        position: absolute;
+        clip: rect(0, 0, 0, 0);
+      }
+      
+      label[for="nav-trigger"] {
+        /* critical positioning styles */
+        position: fixed;
+        left: 15px; top: 15px;
+        z-index: 2;
+        
+        /* non-critical apperance styles */
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+        background-size: contain;
+      }
+      img{
+        position: relative;
+        align-content: center;
+        left: 50px; 
+      }
+      /* Make the Magic Happen */
+      .nav-trigger + label, .site-wrap {
+        transition: left 0.2s;
+      }
+      
+      .nav-trigger:checked + label {
+        left: 215px;
+      }
+      
+      .nav-trigger:checked ~ .site-wrap {
+        left: 200px;
+        box-shadow: 0 0 5px 5px rgba(27, 0, 148, 0.5);
+      }
+      
+      body {
+          /* Without this, the body has excess horizontal scroll when the menu is open */
+        overflow-x: hidden;
+      }
+      
+      /* Additional non-critical styles */
+      
+      h1{
+        max-width: 600px;
+        margin: 0 auto 1em;
+        font-style: bold;
+      }
+      
+      code {
+          padding: 2px;
+          background: #ddd;
+      }
+      
+      /* Micro reset */
+      *,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
+      html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif; }
+      
+      button {
+        margin: 15px auto auto;
+    color: #000000;
+    background-color: #2a63cc83;
+    border: 0px solid #000000;
+    border-radius: 100px;
+    padding: 10px 10px;
+    cursor: pointer;
+    height:70px;
+    width: 170px;
+    font-size:20px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    }
+    button:hover {
+    box-shadow: 1px 1px #ea5353, 2px 2px #53a7ea, 3px 3px #53a7ea;
+    transform: translateX(-3px);
+    }
+    
+    h2{
+      font-size: 55px;
+      margin: 0 auto 60px;
+      font-style: bold;
+    }
+    h3{
+      font-size: 24px;
+      margin: 0 auto 1em;
+      font-style: italic;
+    }
+    p {
+      font-size: 30px;
+      margin: 0  2px;
+      font-style: bold;
+    }</style>
