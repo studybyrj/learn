@@ -23,6 +23,7 @@
     <link rel="icon" type="image/png" sizes="500x500" href="assets/img/Logo/logo%20(1).png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/Back-to-top.css">
     <link rel="stylesheet" href="assets/css/Custom-Pre-loader.css">
     <link rel="stylesheet" href="assets/css/Juvi---3-Bullets-Divider---Center-Grey.css">
@@ -31,7 +32,9 @@
     <link rel="stylesheet" href="assets/css/Team-images.css">
 </head>
 
-<body class="bg-secondary">
+<body class="bg-secondary">    <div class="preloader-wrapper">
+        <div class="loader"></div>
+    </div>
     <nav class="navbar navbar-dark navbar-expand-md sticky-top bg-primary py-3">
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html"><span class="bs-icon-md d-flex justify-content-center align-items-center me-2 bs-icon"><img class="rounded img-fluid bg-success" src="assets/img/Logo/logo%20(1).png"></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-5">
@@ -44,7 +47,7 @@
             </div>
         </div>
     </nav>
-    <section class="py-4 py-xl-5">
+    <section data-aos="fade-up" class="py-4 py-xl-5">
         <div class="container">
             <div class="text-center p-4 p-lg-5">
                 <p class="fw-bold text-info mb-2">Classes</p>
@@ -52,8 +55,8 @@
             </div>
         </div>
     </section>
-    <div class="divider-75"></div>
-    <div class="container py-4 py-xl-5">
+    <div data-aos="fade-up" class="divider-75"></div>
+    <div class="container py-4 py-xl-5" data-aos="fade-up">
         <div class="row mb-5">
             <div class="col-md-8 col-xl-6 text-center mx-auto">
                 <p><strong><span style="color: rgb(13, 202, 240);">More apps</span></strong></p>
@@ -64,7 +67,7 @@
             <div class="col">
                 <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/Images/tm.png">
                     <div class="card-body p-4">
-                        <p class="fw-bold text-info card-text mb-0">Apps</p>
+                        <p class="fw-bold text-info card-text mb-0">App</p>
                         <h4 class="fw-bolder card-title">Time Management&nbsp;</h4>
                         <p class="card-text">This app is for manage your study time tasks. Like can use timer and task to that in the timer.</p>
                         <div class="d-flex"><a class="btn btn-primary" role="button" href="https://studybyrj.github.io/time/" target="_blank">Let's try&nbsp;</a></div>
@@ -74,7 +77,7 @@
             <div class="col">
                 <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/Images/hijee.png">
                     <div class="card-body p-4">
-                        <p class="fw-bold text-info card-text mb-0">Article</p>
+                        <p class="fw-bold text-info card-text mb-0">Website</p>
                         <h4 class="fw-bolder card-title">Hi! JEE</h4>
                         <p class="card-text">This app can provide the study material for class 11<sup>th </sup>to 12<sup>th</sup>. Here you will find content for PCM.</p>
                         <div class="d-flex"><a class="btn btn-primary" role="button" href="https://hijee.netlify.app/" target="_blank">Let's try</a></div>
@@ -83,7 +86,7 @@
             </div>
         </div>
     </div>
-    <div class="divider-75"></div>
+    <div data-aos="fade-up" class="divider-75"></div>
     <footer class="text-center bg-primary">
         <div class="container text-white py-4 py-lg-5">
             <ul class="list-inline">
@@ -100,6 +103,8 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/Back-to-top.js"></script>
     <script src="assets/js/Custom-Pre-loader-Custom%20Pre%20Loader.js"></script>
 </body>
