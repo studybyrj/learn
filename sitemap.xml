@@ -1,54 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <url>
-        <loc>/Class/class 10/book.html</loc>
-    </url>
-    <url>
-        <loc>/Class/class 10/Ncert Exampler.html</loc>
-    </url>
-    <url>
-        <loc>/Class/class 10/Ncert solution.html</loc>
-    </url>
-    <url>
-        <loc>/Class/class 10/Notes.html</loc>
-    </url>
-    <url>
-        <loc>/Class/class 9/book.html</loc>
-    </url>
-    <url>
-        <loc>/Class/class 9/Ncert Exampler.html</loc>
-    </url>
-    <url>
-        <loc>/Class/class 9/Ncert solution.html</loc>
-    </url>
-    <url>
-        <loc>/Class/class 9/Notes.html</loc>
-    </url>
-    <url>
-        <loc>/Class/class 9/Syllabus.html</loc>
-    </url>
-    <url>
-        <loc>/Class/class 10.html</loc>
-    </url>
-    <url>
-        <loc>/Class/class 9.html</loc>
-    </url>
-    <url>
-        <loc>/404.html</loc>
-    </url>
-    <url>
-        <loc>/about.html</loc>
-    </url>
-    <url>
-        <loc>/class.html</loc>
-    </url>
-    <url>
-        <loc>/contact.html</loc>
-    </url>
-    <url>
-        <loc>/</loc>
-    </url>
-    <url>
-        <loc>/Template.html</loc>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://studybyrj.github.io/learn/</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://studybyrj.github.io/learn/about.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://studybyrj.github.io/learn/contact.html</loc>
+    <priority>0.80</priority>
+  </url>
 </urlset>
