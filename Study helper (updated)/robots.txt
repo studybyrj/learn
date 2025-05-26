@@ -1,0 +1,6 @@
+# Allow all search engines to index everything
+User-agent: *
+Disallow:
+
+# Sitemap location (replace with your actual sitemap URL if you have one)
+Sitemap: https://studybyrj.github.io/learn/sitemap.xml
